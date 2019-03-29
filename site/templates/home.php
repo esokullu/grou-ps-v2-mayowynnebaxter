@@ -26,7 +26,9 @@
             <div class="groups-information groups-box private-feature">
                 <div class="title">About</div>
                 <div class="content">
-                    Sample Page is a sample page to demonstrate how Grou.ps pages look and feel like.
+                    <b>Mayo Wynne Baxter Intranet Network</b>
+                    <br />
+                    Team MWB | Together Stronger
                 </div>
             </div>
             <div class="groups-invitation groups-box private-feature">

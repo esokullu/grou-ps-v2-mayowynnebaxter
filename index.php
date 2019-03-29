@@ -7,16 +7,16 @@ $templates = new League\Plates\Engine(__DIR__ . '/site/templates');
 
 $goal = "show";
 $public_id = '79982844-6a27-4b3b-b77f-419a79be0e10';
-$primary_color = '#6f879f';
-$text_color = '#3f5f7f';
-$background_color = '#ffffff';
+$primary_color = '#b1b83b';
+$text_color = '#4e4e4e';
+$background_color = '#f9f9f9';
 $host = "https://gjs-singlesignon.herokuapp.com";
 $stream_host = "";
 $theme = "light";
 
 echo $templates->render($_GET["page"], [
         "goal"             => $goal,
-        "brand"            => "Sample Page",
+        "brand"            => "Mayo Wynne Baxter",
         "public_id"        => $public_id, // $init($public_id), // (new \Tholu\Packer\Packer($init($public_id)))->pack()
         "primaryColor"     => $primary_color,
         "textColor"        => $text_color,

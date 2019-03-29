@@ -36,7 +36,8 @@
             You can place your logo here.
             Any text or image is okay to use.
         -->
-        <?=html_entity_decode($this->e($brand, "urldecode"), ENT_QUOTES | ENT_HTML5)?>
+        <img src="/site/images/identity/logo.png">
+        <!--<?=html_entity_decode($this->e($brand, "urldecode"), ENT_QUOTES | ENT_HTML5)?>-->
     </a>
     <!-- Mobile menu switch button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-menu">
@@ -79,9 +80,9 @@
     </div>
     <div class="groups-controls">
         <div class="groups-notifications private-feature">
-            <graphjs-notifications target-profile="<?php if($goal==="show"): ?>/?page=profile&<?php else: ?>/<?=$name?>/profile?<?php endif ?>id=[[id]]" target-feed-item="<?php if($goal==="show"): ?>/?page=feed&<?php else: ?>/<?=$name?>/feed?<?php endif ?>id=[[id]]" target-messages="<?php if($goal==="show"): ?>/?page=messages<?php else: ?>/<?=$name?>/messages<?php endif ?>" position="topright" color="rgba(255, 255, 255, .65)" height="40px" box="disabled"></graphjs-notifications>
+            <graphjs-notifications color="#ccd533" target-profile="<?php if($goal==="show"): ?>/?page=profile&<?php else: ?>/<?=$name?>/profile?<?php endif ?>id=[[id]]" target-feed-item="<?php if($goal==="show"): ?>/?page=feed&<?php else: ?>/<?=$name?>/feed?<?php endif ?>id=[[id]]" target-messages="<?php if($goal==="show"): ?>/?page=messages<?php else: ?>/<?=$name?>/messages<?php endif ?>" position="topright" color="rgba(255, 255, 255, .65)" height="40px" box="disabled"></graphjs-notifications>
         </div>
-        <graphjs-auth target="<?php if($goal==="show"): ?>/?page=profile&<?php else: ?>/<?=$name?>/profile?<?php endif ?>id=[[id]]" position="topright" color="rgba(255, 255, 255, .65)" height="40px" box="disabled"></graphjs-auth>
+        <graphjs-auth color="#ccd533" target="<?php if($goal==="show"): ?>/?page=profile&<?php else: ?>/<?=$name?>/profile?<?php endif ?>id=[[id]]" position="topright" color="rgba(255, 255, 255, .65)" height="40px" box="disabled"></graphjs-auth>
     </div>
 </nav>
 

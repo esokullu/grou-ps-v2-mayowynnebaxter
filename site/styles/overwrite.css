@@ -16,3 +16,18 @@ graphjs-promo {
     border: 1px solid rgba(0, 0, 0, .15);
     background-color: rgba(0, 0, 0, .05);
 }
+
+/* Custom */
+
+body {
+    color: #4e4e4e !important;
+    background-color: #e7e7e7 !important;
+}
+
+.groups-navigation {
+    background-color: #1e1e1e !important;
+}
+
+.groups-brand img {
+    height: 1em !important;
+}
